@@ -1,0 +1,392 @@
+body{
+    
+}
+i{
+    color: #6f42c1;
+    font-size: 40px;
+}
+/* Nav bar */
+#Nav-bar{
+    background-color: rgba(111, 66, 193, 0.1);
+    
+}
+
+.navbar{
+    padding-bottom: 90px;
+    position: static;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+.navbar-brand{
+    padding-left: 130px;
+}
+.navbar-nav{
+    padding-right: 130px;
+}
+
+/* header */
+#header{
+    background-color: rgba(111, 66, 193, 0.1);
+
+}
+
+.header-row{
+    margin: 0 130px;
+}
+
+.prevent-btn{
+    color: #fff;
+    background-color: #59339d;
+    border-color: #533093;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+  
+
+.text-1{
+    color: rgba(111, 66, 193, 0.5);
+    font-weight: 900;
+    font-size: 12px;
+}
+.text-2{
+    color: #6f42c1;
+    font-weight: 900;
+    font-size: 40px;
+}
+.header-img {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+/* Statistics */
+#statistics{
+    background-color: white;
+    margin: 0 130px;
+    text-align: center;
+    
+}
+.stats-head{
+    color: #6f42c1;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 70px;
+    
+}
+.stats-virus{
+    color: #6f42c1;
+    padding-top: 20px;
+    
+}
+.stats-numbers{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.card{
+    border: none;
+}
+
+/* about */
+#about{
+    padding-top: 100px;
+    margin: 0 130px;
+}
+.about-img{
+    max-width: 100%;
+    height: auto;
+}
+.about-text{
+    padding-left: 130px;
+}
+.about-head{
+    color: #6f42c1;
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.about-list{
+    list-style-type: none;
+    padding-left: 0;
+}
+.about-list li p{
+    display: inline;
+    margin-left: 20px;
+}
+.about-btn{
+    color: #fff;
+    background-color: #59339d;
+    border-color: #533093;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+#about i{
+    font-size: 20px;
+}
+
+/* ppts */
+#ppts{
+    padding: 100px 130px 30px;
+    color: #6f42c1;
+}
+.ppts p{
+    color: gray;
+}
+.ppts-text{
+    display: inline;
+    float: right;
+    margin: 0;
+}
+.ppts-icons{ 
+    margin: 0;
+}
+
+/* prevention */
+#prevention{
+    background-color:rgba(111, 66, 193, 0.05);
+    padding: 100px 130px ;
+}
+.prevent-title{
+    color: #6f42c1;
+}
+.prevent-icon{
+    background-color: rgba(111, 66, 193, 0.2);
+    text-align: center;
+    height: 150px;
+    padding: 50px;
+    
+}
+.tiny-icons{
+    font-size: 20px;
+}
+
+.prevent-col{
+    padding: 100px 0 0 100px;
+}
+.prevent-head{
+    color: #6f42c1;
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.stay-at-home-card{
+    padding-top: 50px;
+}
+.wash-your-hands-card{
+    bottom: 50px;
+    
+}
+
+/* Protection */
+#protection{
+    background-color: #fff;
+    padding: 100px 130px;
+}
+.protection-head{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.wyntd{
+    margin-bottom: 0;
+}
+.protection-title{
+    color: #6f42c1;
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 30px;
+    
+}
+.how-to-protect{
+    padding-top: 100px;
+}
+.protection-image{
+    max-width: 100%;
+    height: auto;
+}
+.do{
+    padding-left: 0;
+}
+.do li{
+    padding-top: 10px;
+}
+.dont{
+    padding-left: 0;
+}
+.dont li{
+    padding-top: 10px;
+}
+.do li p{
+    display: inline;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+.dont li p{
+    display: inline;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+#protection h6{
+    color: black;
+    font-weight: 700;
+    padding: 0 0 20px 0;
+}
+#protection ul{
+    list-style-type: none;
+}
+#protection i{
+    font-size: 20px;
+}
+
+/* Symptoms */
+#symptoms{
+    background-color:rgba(111, 66, 193, 0.05);
+    padding: 100px 130px ;
+}
+.symptoms-title{
+    color: #6f42c1;
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.symptoms-heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.symptoms-content{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 30px 0px;
+    padding: 30px;
+    background: #fff;
+    display: flex;
+    
+}
+.symptoms-image{
+    max-width: 100%;
+    height: auto;
+    padding-right: 20px;
+}
+#symptoms h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(111, 66, 193);
+}
+.symptoms-call{
+    padding: 30px 100px;
+}
+.help-text{
+    color: rgb(111, 66, 193);
+    font-weight: bolder;
+}
+.help-btn{
+    color: #fff;
+    background-color: #59339d;
+    border-color: #533093;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-left: 200px;
+}
+#symptoms i{
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+/* News and Articles */
+#newsandarticles{
+    background-color: #fff;
+    padding: 100px 130px;
+}
+.news-title{
+    color: #6f42c1;
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.news-heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.news-image{
+    max-width: 100%;
+    height: auto;
+    
+}
+.news-btn{
+    color: #fff;
+    background-color: #59339d;
+    border-color: #533093;
+    border-radius: 0;
+    padding: 5px 15px;
+    margin-left: 110px;
+    
+}
+.news-text{
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.news-admin{
+    color: rgb(204, 204, 204);
+    padding-right: 30px;
+}
+.news-comment{
+    color: rgb(204, 204, 204);
+    
+}
+.news-info{
+    text-align: center;
+    color: #6f42c1;
+    padding: 0 50px;
+}
+.news-icon{
+    font-size: 15px;
+    color: rgb(204, 204, 204);
+    padding-right: 10px;
+}
+
+/* links */
+#links{
+    background-color: #fff;
+    padding: 100px 130px;
+}
+.link-about{
+    padding-bottom: 20px;
+}
+.link-title{
+    padding: 0 0 20px 40px;
+
+}
+.link-list ul li a{
+    color: #6f42c1;
+}
+.link-list ul li {
+    
+    list-style-type: none;
+    padding-bottom:20px;
+}
+.link-icons i{
+    font-size: 15px;
+    padding: 50px 40px 0 0;
+}
+
+/* Copyright */
+#copyright{
+    background-color: #fff;
+    text-align: center;
+    padding: 0 130px 150px;
+}
+.copyright-word{
+    color: #6f42c1;
+}
+#copyright i{
+    color: red;
+    font-size: 15px;
+}
+
+
+   
+
+    
